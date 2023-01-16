@@ -38099,7 +38099,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 108px;
+  min-height: 113px;
 }
 
 .u-header .u-image-1 {
@@ -38118,9 +38118,10 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-1 {
-  font-weight: 700;
   font-size: 1rem;
-  text-transform: none;
+  letter-spacing: 0px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .u-header .u-nav-2 {
@@ -38131,14 +38132,15 @@ a.u-link.u-text-hover-grey-90:hover {
     width: auto;
     margin-top: -137px;
   }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
-  }
 }
 
 
-
+@media (max-width: 575px) {
+  .u-header .u-menu-1 {
+    margin-top: -136px;
+    margin-bottom: 41px;
+  }
+}
  .u-footer {
   background-image: none;
 }
