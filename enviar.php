@@ -1,4 +1,3 @@
-      
 <?php
 $name = $_POST['name'];
 $mail = $_POST['mail'];
@@ -15,9 +14,9 @@ $message .= "Mensaje: " . $_POST['message'] . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
 $para = 'pizzeriagropello@gmail.com';
-$asunto = 'Mensaje de... (Escribe como quieres que se vea el remitente de tu correo)';
+$asunto = 'Consulta pizza party';
 
 mail($para, $asunto, utf8_decode($message), $header);
 
-header("Location:index.html");
-?>;
+header("Location:eventos.html");
+?>
