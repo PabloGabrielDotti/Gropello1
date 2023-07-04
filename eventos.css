@@ -1,3 +1,22 @@
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
+
+ 
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/46490db540d79bcb8025cf36db4f4ca8857bad222ee90dcdb6fa98abcc1d8133ce8e462b66ed85a36b8507773648fba1df0ed8017b2180af33748a_1280.jpg");
   background-position: 50% 50%;
